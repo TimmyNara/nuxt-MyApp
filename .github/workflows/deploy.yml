@@ -28,7 +28,7 @@ jobs:
 
       - run: npx nuxt build --preset github_pages
         env:
-          NUXT_APP_BASE_URL: /myapp/
+          NUXT_APP_BASE_URL: /nuxt-MyApp/
 
       - uses: actions/upload-pages-artifact@v3
         with:
